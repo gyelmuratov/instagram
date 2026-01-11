@@ -18,7 +18,6 @@ def add_post(content: str) -> bool:
         return True
 
     return False
-    return False
 
 
 def show_all_posts(page: int = 1, order_by_likes: bool = True ) -> list[dict] | None:
